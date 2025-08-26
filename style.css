@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', 'Arial', 'Noto Color Emoji', sans-serif;
+
+  background: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  text-align: center;
+  padding: 20px;
+}
+
+#quizArea {
+  background-color: #fefbd8;
+  border: 2px dashed #ff6f61;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+}
+
+button {
+  background-color: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
